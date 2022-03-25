@@ -24,9 +24,10 @@ The book areas are as follows;
 6. It brings the first book.
 7. It brings the last book.
 8. List the books in which the given entry is in the titles of the books (search)
-9. Print book by ID(get)
-10. Buy the book with the ID given as many as you want and print the last information of the book on the screen. (buy)
-11. If the wrong command is entered, it will print the usage on the screen. 
+9. Delete the book with the given ID. (The deleted book should be coming by ID.) (delete)
+10. Print book by ID(get)
+11. Buy the book with the ID given as many as you want and print the last information of the book on the screen. (buy)
+12. If the wrong command is entered, it will print the usage on the screen. 
  
 ## Used Commands
 
@@ -74,6 +75,13 @@ go run main.go buy <bookID> <quantity>
 go run main.go buy 3 4
 ```
 This command checks the stock count of objects used in the application. It checks the stock of the items we will purchase later and shows us the number of stocks after the purchase accordingly.
+
+### delete command
+```
+go run main.go delete <bookID>
+go run main.go delete 4
+```
+This command allows us to delete objects used in the application.
 
 ## Requirements
 
