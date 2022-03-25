@@ -1,0 +1,88 @@
+{
+    "books": [
+      {
+        "book_id": 1,
+        "names": "Lord of The Rings",
+        "paper_number": 423,
+        "stock_number": 5,
+        "cost": 4.99,
+        "stock_code": 4231245,
+        "ISBN": 946785423,
+        "author": {
+          "id": 1,
+          "name": "John Tolkien"
+        },
+        "flag": ""
+      },
+      {
+        "book_id": 2,
+        "names": "Harry Potter",
+        "paper_number": 432,
+        "stock_number": 4,
+        "cost": 7.12,
+        "stock_code": 4231325,
+        "ISBN": 946785432,
+        "author": {
+          "id": 2,
+          "name": "Joanne Rowling"
+        },
+        "flag": ""
+      },
+      {
+        "book_id": 3,
+        "names": "Hunger Games",
+        "paper_number": 339,
+        "stock_number": 7,
+        "cost": 9.23,
+        "stock_code": 4231345,
+        "ISBN": 946785465,
+        "author": {
+          "id": 3,
+          "name": "Suzanne Colins"
+        },
+        "flag": ""
+      },
+      {
+        "book_id": 4,
+        "names": "Treasure Island",
+        "paper_number": 312,
+        "stock_number": 8,
+        "cost": 8.26,
+        "stock_code": 4231254,
+        "ISBN": 946785476,
+        "author": {
+          "id": 4,
+          "name": "Robert Stevenson"
+        },
+        "flag": ""
+      },
+      {
+        "book_id": 5,
+        "names": "Moonlight",
+        "paper_number": 326,
+        "stock_number": 6,
+        "cost": 9.28,
+        "stock_code": 4231268,
+        "ISBN": 946785452,
+        "author": {
+          "id": 5,
+          "name": "Harold Pinter"
+        },
+        "flag": ""
+      },
+      {
+        "book_id": 6,
+        "names": "Oliver Twist",
+        "paper_number": 228,
+        "stock_number": 3,
+        "cost": 3.55,
+        "stock_code": 4231269,
+        "ISBN": 946785473,
+        "author": {
+          "id": 6,
+          "name": "Charles Dickens"
+        },
+        "flag": ""
+      }
+    ]
+  }
