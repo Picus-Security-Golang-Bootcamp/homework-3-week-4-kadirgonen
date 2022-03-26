@@ -47,7 +47,6 @@ func main() {
 	bookJson := Books{}
 	json.Unmarshal(values, &bookJson)
 
-	fmt.Println("aog")
 	dsn := "host=localhost user=postgres password=2236386alper dbname=PatikaGoDB port=5432 sslmode=disable TimeZone=Asia/Shanghai"
 	db, err := gorm.Open(postgres.Open(dsn), &gorm.Config{})
 	db.AutoMigrate()
